@@ -1,0 +1,28 @@
+# Solvecraft
+
+> Solvecraft is a small software studio that builds custom apps, websites, AI
+> agents and automations for small businesses. Every engagement starts with a
+> free discovery call around the client's problem, followed by a written
+> proposal. We start from the problem, build in early access, and shape
+> features around real feedback.
+
+## Key facts
+
+- Services: custom apps, websites, AI agents, automations
+- Process: free discovery call → written proposal → early-access build → handover & support
+- Early access: clients try working versions early and shape features from real feedback
+- AI agents: trained on client data and connected to their tools, with every step reviewable and visible logs
+- Payment: advance to start, milestone payments as agreed in writing
+
+## Pages
+
+- [Home](https://solvecraft.dev/): overview of services, process and FAQs
+- [Custom Apps](https://solvecraft.dev/custom-apps.html): internal tools, dashboards, client portals, booking systems, MVPs
+- [Websites](https://solvecraft.dev/websites.html): fast marketing sites and small stores with solid search basics
+- [AI Agents](https://solvecraft.dev/ai-agents.html): support, sales and ops agents with transparent logs
+- [Automations](https://solvecraft.dev/automations.html): workflow connections between CRM, invoicing, email and spreadsheets
+- [Process](https://solvecraft.dev/process.html): the four-step engagement model
+- [Work](https://solvecraft.dev/work.html): real projects we've built
+- [About](https://solvecraft.dev/about.html): the team and company principles
+- [Contact](https://solvecraft.dev/contact.html): booking a free discovery call
+- [Privacy Policy](https://solvecraft.dev/privacy-policy.html): plain-language data handling policy
