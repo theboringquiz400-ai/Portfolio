@@ -1744,3 +1744,4 @@ section[id] { scroll-margin-top: 110px; }
 .wa-list li{position:relative;padding-left:22px;margin:4px 0}
 .wa-list li::before{content:"✓";position:absolute;left:0;color:#1f7a4d;font-weight:700}
 .wa-caption{margin-top:14px;color:#3d4a45}
+.wa-foot{padding:4px 18px 18px;color:#3d4a45;font-size:14px}
