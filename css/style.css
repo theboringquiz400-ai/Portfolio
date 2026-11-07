@@ -127,6 +127,20 @@ p { margin: 0 0 1em; color: var(--ink-2); }
 }
 .logo .mark::after { display: none; }
 
+/* name under the logo text */
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.logo-text small {
+  font-size: .64rem;
+  font-weight: 500;
+  letter-spacing: .06em;
+  opacity: .65;
+  margin-top: 2px;
+}
+
 .logo .mark::after {
   content: "";
   position: absolute;
