@@ -4,22 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Work — Solvecraft</title>
+  <title>Work — mtconsultancies</title>
   <meta name="description"
     content="Real projects we've built: custom apps, websites, AI agents and automations. Client names stay private.">
-  <link rel="canonical" href="https://solvecraft.dev/work.html">
+  <link rel="canonical" href="https://mtconsultancies.in/work.html">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0c3d2e">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Solvecraft">
-  <meta property="og:title" content="Work — Solvecraft">
+  <meta property="og:site_name" content="mtconsultancies">
+  <meta property="og:title" content="Work — mtconsultancies">
   <meta property="og:description"
     content="Real problems, real builds. A few projects we've built. Client names stay private.">
-  <meta property="og:url" content="https://solvecraft.dev/work.html">
-  <meta property="og:image" content="https://solvecraft.dev/assets/mascot.avif">
+  <meta property="og:url" content="https://mtconsultancies.in/work.html">
+  <meta property="og:image" content="https://mtconsultancies.in/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="mtconsultancies: software shaped around your problem">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon"
-    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23d4f74a'/%3E%3Ccircle cx='12' cy='14' r='2.4' fill='%23101613'/%3E%3Ccircle cx='20' cy='14' r='2.4' fill='%23101613'/%3E%3C/svg%3E">
+  <meta name="twitter:title" content="Work — mtconsultancies">
+  <meta name="twitter:image" content="https://mtconsultancies.in/assets/og-image.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap">
@@ -27,14 +33,14 @@
   <noscript>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap">
   </noscript>
-  <link rel="stylesheet" href="css/style.css?v=14">
+  <link rel="stylesheet" href="css/style.css?v=19">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://solvecraft.dev/" },
-      { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://solvecraft.dev/work.html" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mtconsultancies.in/" },
+      { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://mtconsultancies.in/work.html" }
     ]
   }
   </script>
@@ -47,7 +53,7 @@
         <header class="site-header">
           <div class="container">
             <nav class="nav" aria-label="Main navigation">
-              <a class="logo" href="index.html"><span class="mark" aria-hidden="true"></span>solvecraft</a>
+              <a class="logo" href="index.html"><span class="mark" aria-hidden="true"></span><span class="logo-text">mtconsultancies<small>Mounatapasvi</small></span></a>
               <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -79,12 +85,28 @@
 
           <section class="section">
             <div class="work-stack">
+
               <!-- Project 1: Lime -->
               <article class="project-row lime reveal">
                 <div class="project-info">
                   <span class="c-tag">Custom App</span>
                   <h2>Project management platform</h2>
-                  <p class="project-desc">This client was losing money because their process was manual and nothing was tracked properly. We built them a custom platform to manage their vehicles and items, and to track every booking and payment. It works the same way for their projects: they can see what they spent, the total cost, and whether they made a profit or a loss.</p>
+                  <dl class="case-facts">
+                    <div>
+                      <dt>The problem</dt>
+                      <dd>Their process was manual and nothing was tracked properly, so they were losing money.</dd>
+                    </div>
+                    <div>
+                      <dt>What we built</dt>
+                      <dd>A custom platform to manage their vehicles and items and to track every booking and payment. For each project they can see what they spent, the total cost, and whether they made a profit or a loss.</dd>
+                    </div>
+                  </dl>
+                  <ul class="chips">
+                    <li>Bookings</li>
+                    <li>Payments</li>
+                    <li>Cost and profit</li>
+                    <li>Vehicles and items</li>
+                  </ul>
                   <div class="c-metric">
                     <b>Bookings, costs and profits tracked</b>
                     <span>One system for the whole operation</span>
@@ -101,12 +123,27 @@
                 </div>
               </article>
 
-              <!-- Project 2: Mint / Green -->
+              <!-- Project 2: Mint -->
               <article class="project-row mint reveal">
                 <div class="project-info">
                   <span class="c-tag">Custom App</span>
                   <h2>Group finance manager</h2>
-                  <p class="project-desc">We rebuilt this group's existing app. We added new features, made the design easier to use, and separated everything by feature so it's simple to find your way around. The first version only worked in a limited setup where everything had to be connected together. The new version is responsive and works from anywhere, on any device.</p>
+                  <dl class="case-facts">
+                    <div>
+                      <dt>The problem</dt>
+                      <dd>The first version only worked in a limited setup where everything had to be connected together.</dd>
+                    </div>
+                    <div>
+                      <dt>What we built</dt>
+                      <dd>We rebuilt the group's existing app with new features and an easier design, with everything separated by feature so it's simple to find your way around. It's responsive and works from anywhere, on any device.</dd>
+                    </div>
+                  </dl>
+                  <ul class="chips">
+                    <li>Group savings</li>
+                    <li>Deposits</li>
+                    <li>Modular features</li>
+                    <li>Any device</li>
+                  </ul>
                   <div class="c-metric">
                     <b>Responsive and modular</b>
                     <span>Works from anywhere, on any device</span>
@@ -128,7 +165,22 @@
                 <div class="project-info">
                   <span class="c-tag">Custom App</span>
                   <h2>Inventory and billing</h2>
-                  <p class="project-desc">This business was running on a manual ledger. We moved them to software where they can keep their stock in order, track expenses, see monthly sales and purchases, and print bills. About 40% less manual work.</p>
+                  <dl class="case-facts">
+                    <div>
+                      <dt>The problem</dt>
+                      <dd>The business was running on a manual paper ledger.</dd>
+                    </div>
+                    <div>
+                      <dt>What we built</dt>
+                      <dd>Software to keep stock in order, track expenses, see monthly sales and purchases, and print bills.</dd>
+                    </div>
+                  </dl>
+                  <ul class="chips">
+                    <li>Stock</li>
+                    <li>Expenses</li>
+                    <li>Monthly sales</li>
+                    <li>Printed bills</li>
+                  </ul>
                   <div class="c-metric">
                     <b>About 40% less manual work</b>
                     <span>From manual paper ledger to clean digital bills</span>
@@ -145,12 +197,27 @@
                 </div>
               </article>
 
-              <!-- Project 4: Sky / Blue -->
+              <!-- Project 4: Sky -->
               <article class="project-row sky reveal">
                 <div class="project-info">
                   <span class="c-tag">AI App</span>
                   <h2>TourCRM</h2>
-                  <p class="project-desc">A CRM for travel and tour businesses. When a customer needs a plan fast, the AI drafts an itinerary and the team can edit it as needed. It also tracks sales targets and who is working on what, and uses attribute-based access control (ABAC) so each person only sees what they're allowed to.</p>
+                  <dl class="case-facts">
+                    <div>
+                      <dt>The problem</dt>
+                      <dd>Travel and tour businesses need to turn around a plan for a customer fast, and keep track of the team's work.</dd>
+                    </div>
+                    <div>
+                      <dt>What we built</dt>
+                      <dd>A CRM where AI drafts an itinerary and the team can edit it. It tracks sales targets and who is working on what, and uses attribute-based access control (ABAC) so each person only sees what they're allowed to.</dd>
+                    </div>
+                  </dl>
+                  <ul class="chips">
+                    <li>AI itineraries</li>
+                    <li>Sales targets</li>
+                    <li>Team tracking</li>
+                    <li>ABAC security</li>
+                  </ul>
                   <div class="c-metric">
                     <b>AI-drafted itineraries</b>
                     <span>Role-based security with ABAC controls</span>
@@ -166,6 +233,7 @@
                   <img src="assets/blue.png" alt="TourCRM mascot" class="project-mascot" width="120" height="110" loading="lazy">
                 </div>
               </article>
+
             </div>
           </section>
 
@@ -210,8 +278,7 @@
         <div class="footer-card">
           <div class="footer-grid">
             <div class="footer-brand">
-              <a class="logo" href="index.html" style="color:#fff"><span class="mark"
-                  aria-hidden="true"></span>solvecraft</a>
+              <a class="logo" href="index.html" style="color:#fff"><span class="mark" aria-hidden="true"></span><span class="logo-text">mtconsultancies<small>Mounatapasvi</small></span></a>
               <p>A small software studio building custom apps, websites, AI agents and automations around your problem.</p>
             </div>
             <div>
@@ -241,8 +308,7 @@
             </div>
           </div>
           <div class="footer-bottom">
-            <span>© <span data-year>2026</span> Solvecraft. All rights reserved.</span>
-            <span>Built with stubborn frugality.</span>
+            <span>© <span data-year>2026</span> mtconsultancies. All rights reserved.</span>
           </div>
         </div>
       </footer>
