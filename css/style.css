@@ -1,5 +1,5 @@
 /* ============================================================
-   Solvecraft — design system
+   mtconsultancies — design system
    Light page, floating white cards, pill badges removed,
    black CTAs, lime accent.
    ============================================================ */
@@ -139,15 +139,6 @@ p { margin: 0 0 1em; color: var(--ink-2); }
   letter-spacing: .06em;
   opacity: .65;
   margin-top: 2px;
-}
-
-.logo .mark::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 38% 42%, var(--ink) 1.6px, transparent 2px),
-    radial-gradient(circle at 62% 42%, var(--ink) 1.6px, transparent 2px);
 }
 
 .nav-links {
